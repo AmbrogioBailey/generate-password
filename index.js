@@ -25,7 +25,7 @@ function copy() {
     let copyPassword = document.getElementById("first-password")
     navigator.clipboard.writeText(copyPassword.value)
         .then(() => {
-            alert("The password has been copied: " + copyPassword.value);
+            alert("The password has been copied!");
         })
 }
 
@@ -33,7 +33,7 @@ function copyTwo() {
     let copyPassword = document.getElementById("second-password")
     navigator.clipboard.writeText(copyPassword.value)
         .then(() => {
-            alert("The password has been copied: " + copyPassword.value);
+            alert("The password has been copied");
         })
 }
 
