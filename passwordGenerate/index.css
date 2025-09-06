@@ -1,0 +1,58 @@
+body {
+    margin-top: 70px;
+    background: #1F2937;
+    background-size: cover;
+}
+
+h1 {
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#sec-header {
+    margin-top: -20px;
+    color: #10B981;   
+}
+
+button {
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background: #10B981;
+    margin-left: 20px;
+    padding: 10px 10px;
+    color: white;
+}
+
+#insecure {
+    margin-left: 20px;
+    color: #D5D4D8;
+}
+
+.line {
+    width: 446px;
+    height: 0;
+    margin-top: 30px;
+    border-bottom: 1px solid #2F3E53;
+    margin-left: 20px;
+}
+
+#first-password, #second-password  {
+    margin-top: 35px;
+    margin-left: 20px;
+    color: #10B981;
+    background: #273549;
+    padding: 10px 70px;
+    border: 1px solid none;
+    border-radius: 7px;
+}
+
+#first-password.hover-enabled:hover, #second-password.hover-enabled:hover {
+    color: #FFBF00;
+    font-size: large;
+}
+
+button:hover {
+    background: gray;
+}
